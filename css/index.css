@@ -1,0 +1,189 @@
+/*
+Template Name: Educate
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************center_home****************/
+.carousel-caption{
+text-align:left;
+background: #0000008a;
+padding:105px 150px 0px 150px;
+bottom:0;
+left:0;
+color:#fff;
+width:100%;
+height:100%;
+ }
+.carousel-caption h1{
+font-size:80px;
+ }
+.carousel-indicators{
+bottom:0; 
+ }
+
+.main_2{
+bottom:-95px; 
+ }
+#spec{
+margin-top:95px; 
+ }
+/*********************center_home_end****************/
+
+/*********************news****************/
+
+.subs_m {
+background: #000000e0;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+.subs_m1 .form-control{
+width:40%;
+height:48px;
+display:inline-block;
+ }
+.subs_m1 .button{
+padding:15px 40px 14px 40px!important;
+ }
+#subs {
+background-image: url(../img/12.jpg);
+background-position: center;
+}
+/*********************news_end****************/
+
+/*********************prep****************/
+.prep_1i1{
+padding:40px 15px 80px 15px;
+ }
+
+.prep_1i{
+position:relative; 
+ }
+.prep_1i2{
+position:absolute; 
+width:100%;
+bottom:-50px;
+ }
+.prep_1ib{
+margin-top:60px; 
+ }
+/*********************prep_end****************/
+@media screen and (max-width : 767px){
+.main_2{
+position:static!important; 
+ }
+.center_home img{ 
+min-height:300px; 
+ }
+.carousel-caption{
+text-align:center;
+padding: 30px 20px;
+ }
+.carousel-caption h1{
+font-size:32px;
+ }
+.carousel-caption br{
+display:none;
+ }
+.carousel-caption p{
+width:100%!important;
+font-size:16px!important;
+text-align:left;
+ }
+.qual_1i{
+text-align:center; 
+ }
+.qual_1i p{
+text-align:left; 
+ }
+#spec {
+margin-top:0;
+}
+.spec_1i{
+margin-top:8px;
+margin-bottom:8px;
+text-align:center; 
+ }
+.spec_1i p{
+text-align:left;
+ }
+.learn_1l img{
+height: auto;
+ }
+.learn_1r{
+text-align:center;
+margin-top:15px; 
+ }
+.learn_1r p{
+text-align:left;
+ }
+.prep_1ib{
+margin-bottom:10px; 
+ }
+.subs_m1 .form-control {
+width: 100%;
+margin:0!important;
+margin-bottom:10px!important;
+}
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+
+
+ }
+@media (min-width:768px) and (max-width:991px) {
+.center_home img{ 
+min-height:600px; 
+ }
+.carousel-caption{
+padding:75px 120px 0px 120px;
+ }
+.carousel-caption p{
+width:100%!important;
+font-size:16px!important;
+ }
+.learn_1r{
+padding:10px!important; 
+ }
+.learn_1r p{
+font-size:14px;
+ }
+.learn_1l img{
+min-height:400px; 
+ }
+.subs_m1 .form-control{
+width:38%; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.center_home img{ 
+min-height:600px; 
+ }
+.carousel-caption{
+padding:75px 120px 0px 120px;
+ }
+.carousel-caption p{
+width:80%!important;
+ }
+.learn_1r p{
+font-size:14px;
+ }
+.learn_1r{
+padding:30px!important; 
+ }
+.learn_1l img{
+min-height:400px; 
+ }
+ }
+@media (min-width:1201px) and (max-width:1330px) {
+.center_home img{ 
+min-height:600px; 
+ }
+.carousel-caption{
+padding:75px 120px 0px 120px;
+ }
+ }
+
+

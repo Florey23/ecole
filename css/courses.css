@@ -1,0 +1,197 @@
+/*
+Template Name: Educate
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************course****************/
+.course_dt1il h6{
+border-right:1px solid #fdcf715c; 
+ }
+.team_d1r1 .progress-bar {
+background: #ebad2e14;
+border-radius: 0;
+}
+.team_d1r1 .progress {
+background-color: #fdcf71;
+height: 4px;
+overflow: hidden;
+border-radius: 0;
+}
+
+.price_1i{
+box-shadow: 0 0 4px 3px rgb(0 0 0 / 5%);
+padding:30px 15px;
+background:#fff; 
+ }
+.price_1i h6{
+background:#ef9a88;
+display:inline-block;
+padding:8px 15px;
+border-radius:30px;
+cursor:pointer;
+ }
+.price_1i h4{
+margin-top:50px;
+ }
+.price_1i h1{
+font-size:80px;
+ }
+.price_1i h1 span{
+font-size:30px;
+vertical-align:middle;
+ }
+.price_1i ul li{
+margin-top:10px;
+ }
+/*********************course_end****************/
+
+.team_d1r h6{width:90%;}
+
+@media screen and (max-width : 767px){
+.about_1l{
+text-align:center;
+margin-bottom:15px; 
+ }
+.about_1l p{
+text-align:left; 
+ }
+.about_1l h6{
+text-align:left; 
+ }
+.price_1i{
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.course_1l1{
+text-align:center; 
+ }
+.course_1l1l{
+margin-bottom:15px;
+ }
+.course_1r{
+margin-top:15px; 
+ }
+.course_1r1 h4{
+text-align:center; 
+ }
+.blog_1r1 h4{
+text-align:center; 
+ }
+.course_dt1ir{
+margin-top:10px;
+text-align:center!important;  
+ }
+.course_dt2 img{
+height:auto; 
+ }
+.course_dt2 h3{
+text-align:center; 
+ }
+.course_dt2 ul{
+text-align:center; 
+ }
+.course_dt1 h2{
+text-align:center; 
+ }
+.team_1ir{
+margin-top:15px;
+text-align:center; 
+ }
+.team_1ir p{
+text-align:left; 
+ }
+.team_1ir ul li{
+margin-top:5px;
+margin-bottom:5px;
+ }
+.team_1i{
+margin-top:8px!important;
+margin-bottom:8px!important; 
+ }
+.team_d1l img{
+height:auto; 
+ }
+.team_d1r{
+margin-top:15px;
+ }
+.team_d1r h4{
+text-align:center;
+ }
+.team_d1r h5{
+text-align:center;
+ }
+.team_d1r h6{
+font-size:12px;
+ }
+.team_d1{
+padding:10px!important; 
+ }
+.contact_1l h2{
+text-align:center; 
+ }
+.contact_1l h5{
+text-align:center; 
+ }
+.contact_1r{
+margin-top:15px; 
+ }
+.blog_1l4 h4{
+text-align:center; 
+}
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+.course_dt1ir{
+margin-top:0;
+text-align:right!important;  
+ }
+.team_1ir{
+margin-top:0;
+text-align:left; 
+ }
+.team_d1r h6{
+font-size:16px;
+ }
+ }
+@media (min-width:768px) and (max-width:991px) {
+.about_1r img{
+min-height:530px; 
+ }
+.course_1r1 h6{
+font-size:12px; 
+ }
+.course_1r1 h4{
+font-size:20px; 
+ }
+.blog_1r1 h4{
+font-size:20px; 
+}
+.blog_1r1 h6{
+font-size:12px; 
+ }
+.team_1il img{
+min-height:280px; 
+ }
+.team_1ir ul li{
+margin-top:5px;
+ }
+.team_d1r h6{
+font-size:12px;
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.about_1r img{
+min-height:530px; 
+ }
+.team_1il img{
+min-height:280px; 
+ }
+ }
+@media (min-width:1201px) and (max-width:1330px) {
+
+ }
+
+

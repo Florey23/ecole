@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Educate</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" >
+	<link href="css/font-awesome.min.css" rel="stylesheet" >
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/blog.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<section id="top" class="pt-2 pb-2">
+ <div class="container-xl">
+  <div class="row top_1">
+    <div class="col-md-8 col-lg-9">
+	 <div class="top_1l">
+	  <ul class="mb-0">
+	   <li class="d-inline-block font_14"><a class="text-muted" href="#">Student Home</a></li>
+       <li class="d-inline-block font_14 mx-3">Call <a class="text-muted" href="#">+(000) 345 67 89</a></li>
+	   <li class="d-inline-block font_14"><span class="me-2">Follow Us</span>
+	    <a class="mx-1" href="#"><i class="fa fa-linkedin"></i></a>
+		<a class="mx-1" href="#"><i class="fa fa-instagram"></i></a>
+		<a class="mx-1" href="#"><i class="fa fa-twitter"></i></a>
+		<a class="mx-1" href="#"><i class="fa fa-facebook"></i></a>
+		</li>
+	  </ul>
+	 </div>
+	</div>
+	<div class="col-md-4 col-lg-3">
+	 <div class="top_1l text-end">
+	  <ul class="mb-0">
+	   <li class="d-inline-block font_14"><select class="form-select bg-transparent border-0 pt-0 pb-0 font_14">
+									<option value="default">English</option>
+									<option value="jan">French</option>
+									<option value="feb">German</option>
+									<option value="mar">Italian</option>
+								</select></li>
+	   <li class="d-inline-block font_14 mx-3 ms-1"><a href="#">Login</a></li>
+       <li class="d-inline-block font_14"><a href="#">Register</a></li>
+	  </ul>
+	 </div>
+	</div>
+  </div>
+ </div>
+</section>
+
+<section id="header">
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none; top:0;" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content bg-transparent border-0">
+			  <div class="modal-header border-0">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+			  </div>
+			  <div class="modal-body p-0">
+				<div class="search_1">
+				   <div class="input-group">
+				<input type="text" class="form-control bg-transparent border-0" placeholder="Search Here">
+				<span class="input-group-btn">
+					<button class="btn btn-primary bg-transparent border-0" type="button">
+						<i class="fa fa-search"></i></button>
+				</span>
+		</div>
+	            </div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+<nav class="navbar navbar-expand-md navbar-light bg_green" id="navbar_sticky">
+  <div class="container-xl">
+    <a class="navbar-brand p-0 text-white fw-bold" href="index.html"><i class="fa fa-book col_oran fs-3"></i> Educate</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	   <ul class="navbar-nav mb-0 ms-auto">
+	    
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+		 
+		<li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blog
+          </a>
+          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="blog.html"><i class="fa fa-chevron-right font_8 me-1 align-middle"></i> Blog</a></li>
+            <li><a class="dropdown-item border-0" href="blog_detail.html"><i class="fa fa-chevron-right font_8 me-1 align-middle"></i> Blog Detail</a></li>
+          </ul>
+        </li>
+		
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Courses
+          </a>
+          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="course.html"><i class="fa fa-chevron-right font_8 me-1 align-middle"></i> Courses</a></li>
+            <li><a class="dropdown-item border-0" href="detail.html"><i class="fa fa-chevron-right font_8 me-1 align-middle"></i> Course Detail</a></li>
+          </ul>
+        </li>
+		
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Team
+          </a>
+          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="team.html"><i class="fa fa-chevron-right font_8 me-1 align-middle"></i> Team</a></li>
+            <li><a class="dropdown-item border-0" href="team_detail.html"><i class="fa fa-chevron-right font_8 me-1 align-middle"></i> Team Detail</a></li>
+          </ul>
+        </li>
+
+		<li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact </a>
+        </li>
+		
+		<li class="nav-item">
+          <a class="nav-link nav_hide" data-bs-target="#exampleModal2" data-bs-toggle="modal" href="#"><i class="fa fa-search"></i></a>
+        </li>
+
+      </ul>
+       
+    </div>
+  </div>
+</nav>
+</section>
+
+<section id="center" class="center_o p_3 bg_light">
+ <div class="container-xl">
+  <div class="row center_o1">
+   <div class="col-md-6">
+    <div class="center_o1l">
+	 <h2 class="mb-0">Blog Detail</h2>
+	</div>
+   </div>
+   <div class="col-md-6">
+    <div class="center_o1r text-end pt-3">
+	 <h6 class="mb-0 col_oran"> <a href="#">Home </a> <span class="mx-2">/</span>  Blog Detail</h6>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="blog" class="p_3">
+ <div class="container-xl">
+  <div class="row blog_1">
+   <div class="col-md-9">
+    <div class="blog_1l">
+	  <div class="blog_1l1">
+	    <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="img/1.jpg" class="w-100" height="450" alt="abc"></a>
+				  </figure>
+			  </div>
+		<h3 class="mt-3"><a href="#">Learning, friendship and fun for everyone</a></h3>
+		<h6 class="mt-3"><a class="me-2" href="#"><i class="fa fa-clock-o me-1 col_oran"></i> July 17, 2017</a> <a class="me-2" href="#"><i class="fa fa-heart-o me-1 col_oran"></i> 17</a>  <a class="me-2" href="#"><i class="fa fa-comment-o me-1 col_oran"></i> 3</a> <a href="#"><i class="fa fa-tag me-1 col_oran"></i> Education</a></h6>
+		<p class="mt-3">Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosquad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. </p>
+		<p class="fs-5 fw-bold">" We teach, model, and encourage a love of learning, collaboration, and compassion for others. Everyone a learner everyday. "</p>
+		<p>Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosquad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. ed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+		 <h3 class="mt-3 mb-3">Thing You Should Know?</h3>
+		  <h6><i class="fa fa-chevron-right me-1 font_12 col_oran"></i> Expert & Professional service 24/7.</h6>
+	   <h6><i class="fa fa-chevron-right me-1 font_12 col_oran"></i> The Easiest Way To Get What Need</h6>
+	   <h6><i class="fa fa-chevron-right me-1 font_12 col_oran"></i> General Contracting We Can Help You.</h6>
+	   <h6><i class="fa fa-chevron-right me-1 font_12 col_oran"></i> Full project management services With Expert</h6>
+	   <h6><i class="fa fa-chevron-right me-1 font_12 col_oran"></i> Personalized Industrial Help Need It Fast</h6>
+	   <p class="mt-3">Lorem Ipsn gravida nibh vel velit auctor aliquet.Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosquad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.</p>
+		<hr>
+		<div class="blog_1l1i row">
+		 <div class="col-md-6">
+		  <div class="blog_1l1il">
+		   <h6 class="font_14 fw-bold mb-0"><a href="#">LIBRARY</a> <a class="ms-2" href="#">PHYSICS</a></h6>
+		  </div>
+		 </div>
+		 <div class="col-md-6">
+		  <div class="blog_1l1ir text-end">
+		    <ul class="social-network social-circle mb-0">
+					<li><a href="#" class="icoRss bg_oran bg_red" title="Rss"><i class="fa fa-skype"></i></a></li>
+					<li><a href="#" class="icoFacebook bg_green" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" class="icoTwitter bg-black" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#" class="icoGoogle bg_oran" title="Google +"><i class="fa fa-pinterest"></i></a></li>
+					<li><a href="#" class="icoLinkedin bg-dark" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+		  </div>
+		 </div>
+		</div>
+	  </div>
+	  <div class="blog_1l2">
+	   <h2 class="mt-3">Related Post</h2>
+	   <div class="row news_2 mt-3">
+	     <div class="col-md-4">
+		  <div class="news_2i clearfix">
+		   <div class="news_2i1 clearfix position-relative">
+		    <div class="news_2i1i">
+			  <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="img/5.jpg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+			</div>
+			<div class="news_2i1i1 position-absolute top-0 w-100">
+			 <h4 class="lh-1 mb-0"><a class="text-white bg_oran d-inline-block px-4 pt-2 pb-2" href="#">20 <br> <span class="font_14">Nov</span></a></h4>
+			</div>
+		   </div>
+		   <div class="news_2i2 clearfix shadow_box p-3">
+		    <h3><a href="#">Science Nature Day</a></h3>
+			<hr>
+			<h6><i class="fa fa-clock-o col_oran me-1"></i> March 23, 2021 @ 9:00 am - March 23, 2023 @ 5:00 pm</h6>
+			<h6 class="mt-3"><i class="fa fa-map-marker col_oran me-1"></i> 144 Street Conubia 3002</h6>
+			<h6 class="mb-0 mt-3 text-uppercase"><a class="button" href="#">Read More</a></h6>
+		   </div>
+		  </div>
+		 </div>
+		 <div class="col-md-4">
+		  <div class="news_2i clearfix">
+		   <div class="news_2i1 clearfix position-relative">
+		    <div class="news_2i1i">
+			  <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="img/6.jpg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+			</div>
+			<div class="news_2i1i1 position-absolute top-0 w-100">
+			 <h4 class="lh-1 mb-0"><a class="text-white bg_oran d-inline-block px-4 pt-2 pb-2" href="#">24 <br> <span class="font_14">Dec</span></a></h4>
+			</div>
+		   </div>
+		   <div class="news_2i2 clearfix shadow_box p-3">
+		    <h3><a href="#">Swimming For Kids</a></h3>
+			<hr>
+			<h6><i class="fa fa-clock-o col_oran me-1"></i> March 23, 2021 @ 9:00 am - March 23, 2023 @ 5:00 pm</h6>
+			<h6 class="mt-3"><i class="fa fa-map-marker col_oran me-1"></i> 144 Street Conubia 3002</h6>
+			<h6 class="mb-0 mt-3 text-uppercase"><a class="button" href="#">Read More</a></h6>
+		   </div>
+		  </div>
+		 </div>
+		 <div class="col-md-4">
+		  <div class="news_2i clearfix">
+		   <div class="news_2i1 clearfix position-relative">
+		    <div class="news_2i1i">
+			  <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="img/7.jpg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+			</div>
+			<div class="news_2i1i1 position-absolute top-0 w-100">
+			 <h4 class="lh-1 mb-0"><a class="text-white bg_oran d-inline-block px-4 pt-2 pb-2" href="#">27 <br> <span class="font_14">Aug</span></a></h4>
+			</div>
+		   </div>
+		   <div class="news_2i2 clearfix shadow_box p-3">
+		    <h3><a href="#">Eagle Heights</a></h3>
+			<hr>
+			<h6><i class="fa fa-clock-o col_oran me-1"></i> March 23, 2021 @ 9:00 am - March 23, 2023 @ 5:00 pm</h6>
+			<h6 class="mt-3"><i class="fa fa-map-marker col_oran me-1"></i> 144 Street Conubia 3002</h6>
+			<h6 class="mb-0 mt-3 text-uppercase"><a class="button" href="#">Read More</a></h6>
+		   </div>
+		  </div>
+		 </div>
+	   </div>
+	  </div>
+	  <div class="blog_1l3 mt-4">
+	   <h2 class="mt-3">Recent Comment</h2>
+	   <div class="blog_1l3i row mt-3">
+		 <div class="col-md-2  col-2">
+		   <div class="blog_1l3il">
+		     <img src="img/16.jpg" class="w-100 rounded-circle" alt="abc">
+		   </div>
+		 </div>
+		 <div class="col-md-10 col-10">
+		   <div class="blog_1l3ie">
+			<h5><a  href="#">Lorem Diam</a> <a class="pull-right font_14" href="#">REPLY</a></h5>
+			<h6 class="font_14 col_oran">MAY 13, 2019</h6>
+			<p class="mb-0">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aditivo mini.</p>
+		   </div>
+		 </div>
+	  </div><hr>
+	  <div class="blog_1l3i row mt-3">
+		 <div class="col-md-2  col-2">
+		   <div class="blog_1l3il">
+		     <img src="img/17.jpg" class="w-100 rounded-circle" alt="abc">
+		   </div>
+		 </div>
+		 <div class="col-md-10 col-10">
+		   <div class="blog_1l3ie">
+			<h5><a  href="#">Nulla Quis</a> <a class="pull-right font_14" href="#">REPLY</a></h5>
+			<h6 class="font_14 col_oran">MAY 13, 2019</h6>
+			<p class="mb-0">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aditivo mini.</p>
+		   </div>
+		 </div>
+	  </div><hr>
+	  <div class="blog_1l3i row mt-3">
+		 <div class="col-md-2  col-2">
+		   <div class="blog_1l3il">
+		     <img src="img/18.jpg" class="w-100 rounded-circle" alt="abc">
+		   </div>
+		 </div>
+		 <div class="col-md-10 col-10">
+		   <div class="blog_1l3ie">
+			<h5><a  href="#">Sem Porta</a> <a class="pull-right font_14" href="#">REPLY</a></h5>
+			<h6 class="font_14 col_oran">MAY 13, 2019</h6>
+			<p class="mb-0">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aditivo mini.</p>
+		   </div>
+		 </div>
+	  </div>
+	  </div>
+	  <div class="blog_1l4 mt-4">
+	   <h2 class="mt-3">Post a Comment</h2>
+	   <div class="blog_1l4i row mt-3">
+	    <div class="col-md-12">
+		  <textarea placeholder="Your Comment" class="form-control form_text bg_light"></textarea>
+		</div>
+	   </div>
+	   <div class="blog_1l4i row mt-3">
+	    <div class="col-md-6">
+		  <input class="form-control bg_light" placeholder="Your Email" type="text">
+		</div>
+		<div class="col-md-6">
+		  <input class="form-control bg_light" placeholder="Your Name" type="text">
+		</div>
+	   </div>
+	   <div class="blog_1l4i row mt-3">
+	    <div class="col-md-6">
+		  <input class="form-control bg_light" placeholder="Website" type="text">
+		</div>
+		<div class="col-md-6">
+		  <input class="form-control bg_light" placeholder="Subject" type="text">
+		</div>
+	   </div>
+	   <div class="blog_1l4i row mt-3">
+	    <div class="col-md-12">
+		  <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="customCheck1">
+        <label class="form-check-label" for="customCheck1">Save my name and email in this browser for the next time I comment.</label>
+    </div>
+	     <h6 class="mb-0 mt-4"><a class="button" href="#">SUBMIT</a></h6>
+		</div>
+	   </div>
+	  </div>
+	</div>
+   </div>
+   <div class="col-md-3">
+    <div class="blog_1r">
+     <div class="blog_1r1">
+	     <h3>Recent Posts</h3>
+		 <hr class="line mb-4">
+		<div class="blog_1r1i row">
+		<div class="col-md-4 pe-0 col-4">
+		<div class="blog_1r1il">
+		<div class="grid clearfix">
+		  <figure class="effect-jazz mb-0">
+			<a href="blog_detail.html"><img src="img/7.jpg" class="w-100" alt="abc"></a>
+		  </figure>
+		</div>
+		</div>
+		</div>
+		<div class="col-md-8 col-8">
+		<div class="blog_1r1ir">
+		<p class="mb-2 font_14"><a  href="blog_detail.html">Motivated Achievers Perform, Learn, Excel</a></p>
+		<h6 class="mb-0 font_12 fw-normal">May 19, 2018 by Semp Porta</h6>
+		</div>
+		</div>
+		</div><hr>
+		<div class="blog_1r1i row">
+		<div class="col-md-4 pe-0 col-4">
+		<div class="blog_1r1il">
+		<div class="grid clearfix">
+		  <figure class="effect-jazz mb-0">
+			<a href="blog_detail.html"><img src="img/5.jpg" class="w-100" alt="abc"></a>
+		  </figure>
+		</div>
+		</div>
+		</div>
+		<div class="col-md-8 col-8">
+		<div class="blog_1r1ir">
+		<p class="mb-2 font_14"><a  href="blog_detail.html">Experiences Through Education</a></p>
+		<h6 class="mb-0 font_12 fw-normal">May 19, 2018 by Lorem Amet</h6>
+		</div>
+		</div>
+		</div><hr>
+		<div class="blog_1r1i row">
+		<div class="col-md-4 pe-0 col-4">
+		<div class="blog_1r1il">
+		<div class="grid clearfix">
+		  <figure class="effect-jazz mb-0">
+			<a href="blog_detail.html"><img src="img/6.jpg" class="w-100" alt="abc"></a>
+		  </figure>
+		</div>
+		</div>
+		</div>
+		<div class="col-md-8 col-8">
+		<div class="blog_1r1ir">
+		<p class="mb-2 font_14"><a  href="blog_detail.html">Building on Legacy of Excellence</a></p>
+		<h6 class="mb-0 font_12 fw-normal">May 19, 2018 by Eget Nulla</h6>
+		</div>
+		</div>
+		</div>
+	   </div>
+	   <div class="blog_1r1 mt-4">
+	     <h3>Categories</h3>
+		  <hr class="line mb-4">
+		   <h6><a href="#"><i class="fa fa-chevron-right col_oran me-1 font_12"></i> Business <span class="pull-right">(12)</span></a></h6>
+		 <h6 class="mt-3"><a href="#"><i class="fa fa-chevron-right col_oran me-1 font_12"></i> Culture <span class="pull-right">(08)</span></a></h6>
+		 <h6 class="mt-3"><a href="#"><i class="fa fa-chevron-right col_oran me-1 font_12"></i> Economy <span class="pull-right">(06)</span></a></h6>
+		 <h6 class="mt-3"><a href="#"><i class="fa fa-chevron-right col_oran me-1 font_12"></i> Education <span class="pull-right">(13)</span></a></h6>
+		 <h6 class="mt-3"><a href="#"><i class="fa fa-chevron-right col_oran me-1 font_12"></i> Motivation <span class="pull-right">(07)</span></a></h6>
+		 <h6 class="mt-3 mb-0"><a href="#"><i class="fa fa-chevron-right col_oran me-1 font_12"></i> Events <span class="pull-right">(14)</span></a></h6>
+	   </div>
+	   
+	   <div class="blog_1r1 mt-4">
+	     <h3>Archives</h3>
+		  <hr class="line mb-4">
+		 <div class="blog_1r1sm row">
+		   <h6 class="col-md-12 col-6"><a href="#"><i class="fa fa-chevron-right col_oran me-1 font_12"></i>  May 2020 </a></h6>
+		 <h6 class="mt-2 col-md-12 col-6"><a href="#"><i class="fa fa-chevron-right col_oran me-1 font_12"></i> June 2020 </a></h6>
+		 <h6 class="mt-2 col-md-12 col-6"><a href="#"><i class="fa fa-chevron-right col_oran me-1 font_12"></i>  July 2020 </a></h6>
+		 <h6 class="mt-2 col-md-12 col-6"><a href="#"><i class="fa fa-chevron-right col_oran me-1 font_12"></i> Aug 2020 </a></h6>
+		 <h6 class="mt-2 col-md-12 col-6"><a href="#"><i class="fa fa-chevron-right col_oran me-1 font_12"></i>  Sep 2020 </a></h6>
+		 <h6 class="mt-2 col-md-12 col-6 mb-0"><a href="#"><i class="fa fa-chevron-right col_oran me-1 font_12"></i>  Jan 2020 </a></h6>
+		 </div>
+	   </div>
+	   <div class="blog_1r1 mt-4">
+	     <h3>Tags</h3>
+		  <hr class="line mb-4">
+		 <ul class="mb-0">
+		  <li class="d-inline-block font_12 fw-bold"><a href="#">BIOLOGY</a></li>
+		  <li class="d-inline-block font_12 fw-bold"><a href="#">HISTORY</a></li>
+		  <li class="d-inline-block font_12 fw-bold"><a href="#">BOOKS</a></li>
+		  <li class="d-inline-block font_12 fw-bold"><a href="#">LIBRARY</a></li>
+
+		  <li class="d-inline-block font_12 fw-bold"><a href="#">PHYSICS</a></li>
+		  <li class="d-inline-block font_12 fw-bold"><a href="#">LECTURE</a></li>
+		  <li class="d-inline-block font_12 fw-bold"><a href="#">SCHOOL</a></li>
+		  <li class="d-inline-block font_12 fw-bold"><a href="#">PRACTICE</a></li>
+		 </ul>
+	   </div>
+	   
+	   <div class="blog_1r1 mt-4">
+	     <h3>Search</h3>
+		  <hr class="line mb-4">
+		 <div class="input-group p-1">
+				<input type="text" class="form-control bg-transparent border-0 font_12" placeholder="TYPE KEYWORD HERE">
+				<span class="input-group-btn">
+					<button class="btn btn-primary bg-transparent border-0" type="button">
+						<i class="fa fa-search col_oran"></i> </button>
+				</span>
+		</div>
+	   </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+
+<section id="footer" class="p_3 bg_green">
+	 <div class="container-xl">
+	    <div class="row footer_1">
+		 <div class="col-md-3">
+		  <div class="footer_1i">
+		   <h4 class="col_oran mb-3">Education</h4>
+		   <p class="text-light fs-6">Providing Life Changing Experiences Through Education. Class That Fit Your Busy Life. Closer to Home</p>
+		   <h6 class="mt-4"><a class="text-light" href="#"><i class="fa fa-phone me-1 col_red"></i> +(000) 345 67 89</a></h6>
+		   <h6 class="mt-3 mb-0 text-light"><i class="fa fa-clock-o me-1 col_red"></i> Mon - Sat 9.00 - 17.00</h6>
+		  </div>
+		 </div>
+		 <div class="col-md-3">
+		  <div class="footer_1i">
+		   <h4 class="col_oran mb-3">Latest News</h4>
+		   <p class="fs-6"><a class="text-light" href="#">Graduate Admissions
+<br> <span class="text-white-50">by Eget Nulla</span></a></p>
+ <p class="fs-6"><a class="text-light" href="#">Continuing Education
+<br> <span class="text-white-50">by Semp Porta</span></a></p>
+<p class="fs-6 mb-0"><a class="text-light" href="#">Current Students
+<br> <span class="text-white-50">by Quis Ipsum</span></a></p>
+		  </div>
+		 </div>
+		 <div class="col-md-3">
+		  <div class="footer_1i">
+		   <h4 class="col_oran mb-3">Useful Links</h4>
+		   <div class="footer_1i1 row">
+		       <h6 class="col-md-12 col-6"><a class="text-light" href="#">Popular Courses</a></h6>
+			   <h6 class="col-md-12 col-6 mt-2"><a class="text-light" href="#">Forums</a></h6>
+			   <h6 class="col-md-12 col-6 mt-2"><a class="text-light" href="#">Our Teachers</a></h6>
+			   <h6 class="col-md-12 col-6 mt-2"><a class="text-light" href="#">Upcoming Events</a></h6>
+			   <h6 class="col-md-12 col-6 mt-2"><a class="text-light" href="#">Contact Us</a></h6>
+			   <h6 class="col-md-12 col-6 mt-2 mb-0"><a class="text-light" href="#">About Us</a></h6>
+		   </div>
+		  </div>
+		 </div>
+		 <div class="col-md-3">
+		  <div class="footer_1i">
+		   <h4 class="col_oran mb-3">Flexible Learning</h4>
+		   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114964.53925916665!2d-80.29949920266738!3d25.782390733064336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C+FL%2C+USA!5e0!3m2!1sen!2sin!4v1530774403788" height="100" style="border:0; width:100%;" allowfullscreen=""></iframe>
+		   <h4 class="col_oran mb-3 mt-3">Follow Us</h4>
+		   <ul class="social-network social-circle mb-0">
+					<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-skype"></i></a></li>
+					<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-pinterest"></i></a></li>
+					<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+		  </div>
+		 </div>
+		</div><hr>
+		<div class="row footer_2 text-center">
+		 <div class="col-md-12">
+		   <p class="mb-0 fs-6 text-light">© 2013 Your Website Name. All Rights Reserved | Design by <a class="col_oran fw-bold" href="http://www.templateonweb.com">TemplateOnWeb</a></p>
+		 </div>
+		</div>
+	 </div>
+</section>
+
+<script>
+window.onscroll = function() {myFunction()};
+var navbar_sticky = document.getElementById("navbar_sticky");
+var sticky = navbar_sticky.offsetTop;
+var navbar_height = document.querySelector('.navbar').offsetHeight;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky + navbar_height) {
+    navbar_sticky.classList.add("sticky")
+	document.body.style.paddingTop = navbar_height + 'px';
+  } else {
+    navbar_sticky.classList.remove("sticky");
+	document.body.style.paddingTop = '0'
+  }
+}
+</script>
+
+</body>
+
+</html>
